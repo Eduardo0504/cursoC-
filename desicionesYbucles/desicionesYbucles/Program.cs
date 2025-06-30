@@ -1,15 +1,9 @@
-﻿var usuarioEstaLogueado = true;
+﻿var temperatura = 39;
 
-string mensajeBienvenida;
-
-if (usuarioEstaLogueado)
+var mensaje = temperatura switch
 {
-	mensajeBienvenida = "que bueno que has vuelto";
-}
-else
-{
-	mensajeBienvenida = "logueate para comenzar";
-}
-string mensajeBienvenda = usuarioEstaLogueado ? "que bueno que has vuelto¡" : "logueate para comenzar";
-
-Console.WriteLine(mensajeBienvenda);
+	37 => " no tienes fiebre",
+	> 37 => " tienes fiebre ",
+	< 37 => " puede que tengas baja el azucar "
+};
+Console.WriteLine(mensaje);
