@@ -1,9 +1,10 @@
-﻿var temperatura = 39;
-
-var mensaje = temperatura switch
+﻿for (int i = 1; i <= 10; i++)
 {
-	37 => " no tienes fiebre",
-	> 37 => " tienes fiebre ",
-	< 37 => " puede que tengas baja el azucar "
-};
-Console.WriteLine(mensaje);
+	if (i == 5)
+	{
+		//break;
+		continue;
+	}
+	Console.WriteLine(i);
+}
+Console.WriteLine("fin");
