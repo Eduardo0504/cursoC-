@@ -1,24 +1,25 @@
-﻿//var cantidad1 = "5";
+﻿//Ejemplo 1 arreglo de chars
 
-//int cantidad = int.Parse(cantidad1);
+char[]vocales = new char[5];
 
-//cantidad++;
+vocales[1] = 'e';
+vocales[2] = 'i';
+vocales[3] = 'o';
+vocales[4] = 'u';
 
-//Console.WriteLine(cantidad); // esto da 6
+//var segundaVocal = vocales[2];
 
-var supuestoNumero = "6";
+//Console.WriteLine(segundaVocal);
 
-int numero;
+//var unaVocalMagica = vocales[5]; // no hay sexto elemento
 
-var pudoParsear = int.TryParse(supuestoNumero, out numero);
+//foreach (var vocal in vocales) ;
 
-if (pudoParsear)
+//Console.WriteLine(vocales);
+
+var primeros6Elementos = new int[] { 1, 2, 3, 4, 5, 6 };
+
+foreach (var numero in primeros6Elementos) ;
 {
-	//lugar donde no puede usar la variable numero
-	numero++;
-	Console.WriteLine(numero);
-}
-else
-{
-	Console.WriteLine($"el valor {supuestoNumero} no tiene el formato correcto. ");
+	Console.Write($"{numero} ");
 }
