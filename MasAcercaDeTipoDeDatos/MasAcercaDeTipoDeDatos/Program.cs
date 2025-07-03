@@ -1,25 +1,33 @@
-﻿//Ejemplo 1 arreglo de chars
-
-char[]vocales = new char[5];
-
-vocales[1] = 'e';
-vocales[2] = 'i';
-vocales[3] = 'o';
-vocales[4] = 'u';
-
-//var segundaVocal = vocales[2];
-
-//Console.WriteLine(segundaVocal);
-
-//var unaVocalMagica = vocales[5]; // no hay sexto elemento
-
-//foreach (var vocal in vocales) ;
-
-//Console.WriteLine(vocales);
-
-var primeros6Elementos = new int[] { 1, 2, 3, 4, 5, 6 };
-
-foreach (var numero in primeros6Elementos) ;
+﻿int[][] arregloDeArreglos =
 {
-	Console.Write($"{numero} ");
+	new int[]{1,2},
+	new int[]{3,4,5},
+	new int[]{6},
+	new int[]{7,8}
+};
+
+var segundoElemento = arregloDeArreglos[1]; // 3,4,5
+
+//foreach (var valor in segundoElemento)
+{
+	//Console.WriteLine($"{valor}");
+}
+
+//arregloDeArreglos[3] = new int[] { 9, 10, 11 };
+
+//var tercerElemento = arregloDeArreglos[3];
+
+//foreach (var valor in tercerElemento)
+{
+	//Console.Write($"{valor} ");
+}
+
+for (int fila =0; fila < arregloDeArreglos.Length; fila ++)
+{
+	var arreglo = arregloDeArreglos[fila];
+	for (int columna= 0; columna < arreglo.Length; columna ++)
+	{
+		Console.Write($"{arreglo[columna]} ");
+	}
+	Console.WriteLine();
 }
