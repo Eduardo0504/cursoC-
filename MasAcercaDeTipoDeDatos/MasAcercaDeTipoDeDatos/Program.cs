@@ -1,33 +1,16 @@
-﻿int[][] arregloDeArreglos =
-{
-	new int[]{1,2},
-	new int[]{3,4,5},
-	new int[]{6},
-	new int[]{7,8}
-};
+﻿var nombre = "Eduardo";
 
-var segundoElemento = arregloDeArreglos[1]; // 3,4,5
+var nombreEnMayusculas = nombre.ToUpper(); // EDUARDO
+var nombreEnMinusculas = nombre.ToUpper(); // eduardo
 
-//foreach (var valor in segundoElemento)
+Console.WriteLine($"¿desea terminar el programa? (y/n)");
+var entradaUsuario = Console.ReadLine();
+
+if (entradaUsuario?.ToLower().Trim() == "y")
 {
-	//Console.WriteLine($"{valor}");
+	Console.WriteLine("terminando el programa");
 }
-
-//arregloDeArreglos[3] = new int[] { 9, 10, 11 };
-
-//var tercerElemento = arregloDeArreglos[3];
-
-//foreach (var valor in tercerElemento)
+else
 {
-	//Console.Write($"{valor} ");
-}
-
-for (int fila =0; fila < arregloDeArreglos.Length; fila ++)
-{
-	var arreglo = arregloDeArreglos[fila];
-	for (int columna= 0; columna < arreglo.Length; columna ++)
-	{
-		Console.Write($"{arreglo[columna]} ");
-	}
-	Console.WriteLine();
+	Console.WriteLine("el programa no va a terminar");
 }
