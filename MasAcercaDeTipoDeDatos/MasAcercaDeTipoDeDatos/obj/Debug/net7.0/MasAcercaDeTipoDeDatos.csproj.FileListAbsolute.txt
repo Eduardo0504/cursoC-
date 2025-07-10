@@ -1,0 +1,15 @@
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\bin\Debug\net7.0\MasAcercaDeTipoDeDatos.exe
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\bin\Debug\net7.0\MasAcercaDeTipoDeDatos.deps.json
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\bin\Debug\net7.0\MasAcercaDeTipoDeDatos.runtimeconfig.json
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\bin\Debug\net7.0\MasAcercaDeTipoDeDatos.dll
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\bin\Debug\net7.0\MasAcercaDeTipoDeDatos.pdb
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\obj\Debug\net7.0\MasAcercaDeTipoDeDatos.csproj.AssemblyReference.cache
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\obj\Debug\net7.0\MasAcercaDeTipoDeDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\obj\Debug\net7.0\MasAcercaDeTipoDeDatos.AssemblyInfoInputs.cache
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\obj\Debug\net7.0\MasAcercaDeTipoDeDatos.AssemblyInfo.cs
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\obj\Debug\net7.0\MasAcercaDeTipoDeDatos.csproj.CoreCompileInputs.cache
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\obj\Debug\net7.0\MasAcercaDeTipoDeDatos.dll
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\obj\Debug\net7.0\refint\MasAcercaDeTipoDeDatos.dll
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\obj\Debug\net7.0\MasAcercaDeTipoDeDatos.pdb
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\obj\Debug\net7.0\MasAcercaDeTipoDeDatos.genruntimeconfig.cache
+D:\Cursos\Curso C#\MasAcercaDeTipoDeDatos\MasAcercaDeTipoDeDatos\obj\Debug\net7.0\ref\MasAcercaDeTipoDeDatos.dll
