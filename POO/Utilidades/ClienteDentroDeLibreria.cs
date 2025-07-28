@@ -11,7 +11,8 @@ namespace Utilidades
 		public void Prueba()
 		{
 			var clasePublicaDePrueba = new ClasePublicaDePrueba();
-			clasePublicaDePrueba.PropiedadInterna = 5;
+			clasePublicaDePrueba.PropiedadInterna = 3;
+			clasePublicaDePrueba.PropoeidadProtectedInternal = 4;		
 		}
 	}
 }
